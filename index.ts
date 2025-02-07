@@ -28,7 +28,6 @@ async function main(): Promise<void> {
   const ssvTokenImportance = 1;
   
   let strategyWeights = new Map();
-  //   const strategyWeights =
   for (const strategy of strategyTokenWeights) {
     // calculate the strategy weight, combining token weight and validator balance weight
     let strategyWeight =
@@ -41,7 +40,7 @@ async function main(): Promise<void> {
 
   console.info(
     `Final Strategy weights: ${JSON.stringify(
-        strategyWeights,
+        Object.fromEntries(strategyWeights),
       undefined,
       2
     )}`
