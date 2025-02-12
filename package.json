@@ -17,6 +17,6 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@ssv-labs/based-apps-sdk": "github:ssvlabs/based-apps-sdk"
+    "@ssv-labs/bapps-sdk": "^0.0.1"
   }
 }
